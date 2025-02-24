@@ -488,23 +488,44 @@ nav .middle a :hover{
     }
 }
 
+
+
 @keyframes showContent{
     from{
 
     }
 }
 
+.itch h1{
+    font-size: 25px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.itch a{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid var(--link-color);
+    border-radius: 5px;
+    color: var(--link-color);
+    transition: .1s;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.itch a:hover{
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
 /* SECTION 4: Contact */
 .contact-section {
     padding: 0 50px;
     margin-bottom: 100px;
-    margin-top: 300px;
+    margin-top: 200px;
   }
-  
-  .contact-section h2 {
-    font-size: 35px;
-  }
-  
+   
   .contact-section .group {
     display: flex;
     gap: 50px;
