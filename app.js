@@ -1,4 +1,5 @@
-let next = document.getElementById('next');
+ /*CAROUSEL*/
+/*let next = document.getElementById('next');
 let prev = document.getElementById('prev');
 let carousel = document.querySelector('#Projets');
 let items = document.querySelectorAll('#Projets .item');
@@ -51,4 +52,4 @@ const changeSlider = () => {
 }
 let autoPlay = setInterval(() => {
     next.click();
-}, 5000);
+}, 5000);*/
