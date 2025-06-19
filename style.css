@@ -328,19 +328,6 @@ nav .middle a :hover{
     margin-left: 400px;
 }
 
-#Projets .boxes .connect4 .description .button {
-    color: #325de9;
-    background-color: #ffffff;
-}
-
-#Projets .boxes .connect4 .description .button:hover {
-    background-color: #6ff2cf;
-}
-
-#Projets .boxes .connect4 .description .infos{
-    background-color: #6392e3;
-}
-
 #Projets .boxes .box .soon .description .infos{
     background-color: #ffffff;
 }
@@ -349,7 +336,38 @@ nav .middle a :hover{
     height: 30px;
 }
 
+/*PROJET PUISSANCE 4*/
 
+#Projets .boxes .connect4 .description .button {
+    color: #325de9;
+    background-color: #ffffff;
+}
+
+#Projets .boxes .connect4 .description .button:hover {
+    background-color: #371ec5;
+    color: #fff;
+}
+
+
+#Projets .boxes .connect4 .description .infos{
+    background-color: #6392e3;
+}
+
+/*PROJET RAMEN 4*/
+#Projets .boxes .connect4 .description .button {
+    color: #325de9;
+    background-color: #ffffff;
+}
+
+#Projets .boxes .connect4 .description .button:hover {
+    background-color: #371ec5;
+    color: #fff;
+}
+
+
+#Projets .boxes .connect4 .description .infos{
+    background-color: #6392e3;
+}
 
 
 
@@ -401,6 +419,8 @@ nav .middle a :hover{
     color: var(--text-color);
     border-color: var(--text-color);
 }
+
+
 
 /* SECTION 4: Contact */
 .contact-section {
